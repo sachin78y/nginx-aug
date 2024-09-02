@@ -1,9 +1,9 @@
 FROM nginx:latest
 
-# Add maintainer label
+# Maintainer label
 LABEL maintainer="Sachin Yadav"
 
-# Add email label
+# Email label
 LABEL email="sachin.yadav@demo.com"
 
 # Create necessary directories and set permissions
