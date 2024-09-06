@@ -15,7 +15,7 @@ ADD https://github.com/sachin78y/docker-images/raw/master/nginx.conf /tmp
 RUN cp /tmp/nginx.conf /etc/nginx/nginx.conf && rm -rf /tmp/nginx.conf
 
 # Add custom content to the default index page for permissions
-RUN echo "Welcome to  Hitachi !!!" > /usr/share/nginx/html/index.html
+#RUN echo "Welcome to  Hitachi !!!" > /usr/share/nginx/html/index.html
 
 # Ensure /etc/nginx/conf.d/ is writable
 RUN chmod -R 777 /etc/nginx/conf.d/
